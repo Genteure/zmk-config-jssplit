@@ -4,16 +4,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
+    - name: t0bybr
+      url-base: https://github.com/t0bybr
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: cirque-input-module
-      remote: petejohanson
-      revision: 0de55f36bc720b5be3d8880dc856d4d78baf5214
+    - name: pim447/
+      remote: t0bybr
+      revision: 8a4c29047e31190385797c0c19d1cdcd2ecae458 # commit on Oct 2, 2024, latest as of Feb 2026
   self:
     path: config
