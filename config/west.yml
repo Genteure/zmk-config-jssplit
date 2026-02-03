@@ -12,7 +12,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: pim447/
+    - name: pim447
       remote: t0bybr
       revision: 8a4c29047e31190385797c0c19d1cdcd2ecae458 # commit on Oct 2, 2024, latest as of Feb 2026
   self:
