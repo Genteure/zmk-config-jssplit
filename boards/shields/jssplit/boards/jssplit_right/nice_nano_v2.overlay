@@ -40,7 +40,7 @@
 // devices on i2c0
 
 &i2c0 {
-    input_device_right0: input_device_right0@A {
+    pimoroni_pim447: input_device_right0: input_device_right0@A {
         status = "okay";
         compatible = "zmk,pimoroni-pim447";
         reg = <0xA>;
