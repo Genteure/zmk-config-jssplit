@@ -40,14 +40,9 @@
 // devices on i2c0
 
 &i2c0 {
-    input_device_right0: input_device_right0@2a {
+    input_device_right0: input_device_right0@0a {
         status = "okay";
-        compatible = "cirque,pinnacle";
-        reg = <0x2a>;
-        dr-gpios = <&gpio1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        sleep;
-        no-secondary-tap;
-        no-taps;
-        sensitivity = "2x";
+        compatible = "pimoroni,trackball_pim447";
+        reg = <0x0a>;
     };
 };
