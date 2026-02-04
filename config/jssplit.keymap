@@ -2,6 +2,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    behaviors {
+        pim447bh: pim447bh {
+            compatible = "zmk,behavior-pim447";
+            #binding-cells = <1>;
+            
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
