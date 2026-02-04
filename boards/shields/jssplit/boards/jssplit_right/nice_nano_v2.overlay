@@ -45,6 +45,6 @@
         compatible = "zmk,pimoroni-pim447";
         reg = <0xA>;
         int-gpios = <&gpio1 1 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        activate_automouse_layer = <100>; // meant to be none, but the driver code requires a value so... surely we don't have 100 layers
+        automouse-layer = <100>; // meant to be none, but the driver code requires a value so... surely we don't have 100 layers
     };
 };
