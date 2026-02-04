@@ -40,9 +40,9 @@
 // devices on i2c0
 
 &i2c0 {
-    input_device_right0: input_device_right0@0a {
+    input_device_right0: input_device_right0@A {
         status = "okay";
         compatible = "pimoroni,trackball_pim447";
-        reg = <0x0a>;
+        reg = <0xA>;
     };
 };
